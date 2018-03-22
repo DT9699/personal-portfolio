@@ -1,0 +1,45 @@
+/**   Masthead**/
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url(../img/laptop-coffee.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+}
+
+#name-text {
+  font-size: 80px
+}
+
+.btn-primary {
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  }
